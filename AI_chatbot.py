@@ -31,6 +31,8 @@ def anime_chatbot():
         if user_input == 'exit':
             print("Anime Chatbot: Goodbye! Keep enjoying your anime.")
             break
+			
+	print("#################################")
 
 #Output part.
         response = chatbot.respond(user_input)
