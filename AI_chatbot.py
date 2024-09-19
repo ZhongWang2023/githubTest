@@ -23,6 +23,7 @@ patterns = [
 ]
 
 # Assiging the imported packages to Patterns
+## this is the main logic of the chatbot
 def anime_chatbot():
     print("Anime Chatbot: Hello! I'm your anime assistant. What anime are you currently watching?")
     chatbot = Chat(patterns, reflections)
@@ -38,7 +39,7 @@ def anime_chatbot():
         response = chatbot.respond(user_input)
         print("Anime Chatbot:", response)
 
-
+## this is the main road of the programme
 if __name__ == "__main__":
     anime_chatbot()
 
